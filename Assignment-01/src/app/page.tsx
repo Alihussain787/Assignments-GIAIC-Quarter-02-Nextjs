@@ -1,5 +1,5 @@
 import Link from "next/link";
-let mainPage = () => {
+const mainPage = () => {
   return(
     <div>
       <nav>
