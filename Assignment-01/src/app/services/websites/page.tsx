@@ -1,5 +1,5 @@
 import style from "./style.module.css";
-let websitesPage = () => {
+const websitesPage = () => {
     return(
       <div className={style.content}>
         <h1>This is nested page inside services page</h1>
