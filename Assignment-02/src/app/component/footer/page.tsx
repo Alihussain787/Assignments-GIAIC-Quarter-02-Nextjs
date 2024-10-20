@@ -1,3 +1,4 @@
+import React from "react"
 import style from "./footer.module.css";
 import Link from "next/link";
 import { FaFacebookF } from "react-icons/fa";
