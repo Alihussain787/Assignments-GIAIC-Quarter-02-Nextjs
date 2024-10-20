@@ -1,4 +1,4 @@
-const contactPage = () => {
+let contactPage = () => {
     return(
       <div className="content">
         <h1>This is contact page</h1>
