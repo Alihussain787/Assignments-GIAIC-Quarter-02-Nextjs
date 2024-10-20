@@ -1,4 +1,3 @@
-import React from "react"
 import style from "./hero.module.css";
 import Link from "next/link";
 import Image from "./asset/header-img.png";
