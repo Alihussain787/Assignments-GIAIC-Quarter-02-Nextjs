@@ -1,12 +1,12 @@
+import { FaArrowRightLong } from "react-icons/fa6";
 import Link from "next/link";
+import { TfiEmail } from "react-icons/tfi";
+import { CiLocationOn } from "react-icons/ci";
+import { CiMobile2 } from "react-icons/ci";
 import { FaFacebookF } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaArrowRightLong } from "react-icons/fa6";
-import { TfiEmail } from "react-icons/tfi";
-import { CiLocationOn } from "react-icons/ci";
-import { CiMobile2 } from "react-icons/ci";
 const footer = () => {
     return(
         <footer className="w-full bg-blue-950 text-slate-300 flex items-center justify-center">
