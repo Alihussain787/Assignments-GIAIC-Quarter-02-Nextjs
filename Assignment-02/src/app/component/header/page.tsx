@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./header.module.css";
 import Link from "next/link";
 import { IoSearch } from "react-icons/io5";
