@@ -37,7 +37,7 @@ const mainPage = () => {
             </div>
         </section>
         <section className="w-[1280px] flex flex-col items-center justify-center gap-[64px] py-[64px] max-md:w-full max-md:max-w-3xl">
-            <div className="w-full max-md:px-6 max-md:text-center">
+            <div className="w-full flex flex-col items-center justify-center max-md:px-6 max-md:text-center">
                 <h1 className="text-[48px] font-bold max-md:text-[32px] max-md:mb-[24px]">Explore Courses By Category</h1>
                 <p className="text-[18px]">Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>
             </div>
@@ -108,49 +108,49 @@ const mainPage = () => {
             </div>
             <button className="border border-black py-[12px] px-[24px] rounded-[5px]">View All Courses</button>
         </section>
-        <section className="border w-[1280px] flex flex-col items-center justify-center gap-[64px] py-[64px] max-md:w-full max-md:max-w-3xl">
-            <div className="w-[1152px] flex flex-col items-center gap-[16px] max-md:w-[768px] max-md:w-full max-md:max-w-3xl">
+        <section className="w-[1280px] flex flex-col items-center justify-center gap-[64px] py-[64px] max-md:w-full max-md:max-w-3xl">
+            <div className="w-[1152px] px-6 flex flex-col items-center jusityfy-center gap-[16px] max-md:w-[768px] max-md:w-full max-md:max-w-3xl">
                 <h1 className="text-[48px] font-bold">Our Achivements</h1>
                 <p className="text-center max-md:w-full max-md:max-w-3xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
             </div>
             <div className="achivements w-[1280px] flex items-center justify-center gap-[24px] max-md:w-full max-md:max-w-3xl">
-                <div className="w-[296px]">
+                <div className="w-full">
                     <h1 className="text-center text-[40px] font-bold">+200</h1>
                     <p className="text-center">Courses</p>
                 </div>
-                <div className="w-[296px]">
+                <div className="w-full">
                     <h1 className="text-center text-[40px] font-bold">+50k</h1>
                     <p className="text-center">Menotrs</p>
                 </div>
-                <div className="w-[296px]">
+                <div className="w-full">
                     <h1 className="text-center text-[40px] font-bold">+357k</h1>
                     <p className="text-center">Students</p>
                 </div>
-                <div className="w-[296px]">
+                <div className="w-full">
                     <h1 className="text-center text-[40px] font-bold">+100</h1>
                     <p className="text-center">Recognition</p>
                 </div>
             </div>
         </section>
         <section className="w-[1280px] flex flex-col items-center justify-center gap-[64px] py-[64px] mt-[64px] max-md:w-full max-md:max-w-3xl max-md:hidden">
-            <div className="w-[1152px] flex flex-col items-center gap-[16px] max-md:w-full max-md:max-w-3xl">
+            <div className="w-[1152px] px-6 flex flex-col items-center gap-[16px] max-md:w-full max-md:max-w-3xl">
                 <h1 className="text-[48px] font-bold">Our Achivements</h1>
                 <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
             </div>
             <div className="achivements w-[1280px] flex items-center justify-center gap-[24px] max-md:w-full max-md:max-w-3xl">
-                <div className="w-[296px]">
+                <div className="w-full">
                     <h1 className="text-center text-[40px] font-bold">+200</h1>
                     <p className="text-center">Courses</p>
                 </div>
-                <div className="w-[296px] max-md:w-full max-md:max-w-3xl">
+                <div className="w-full max-md:w-full max-md:max-w-3xl">
                     <h1 className="text-center text-[40px] font-bold">+50k</h1>
                     <p className="text-center">Menotrs</p>
                 </div>
-                <div className="w-[296px] max-md:w-full max-md:max-w-3xl">
+                <div className="w-full max-md:w-full max-md:max-w-3xl">
                     <h1 className="text-center text-[40px] font-bold">+357k</h1>
                     <p className="text-center">Students</p>
                 </div>
-                <div className="w-[296px] max-md:w-full max-md:max-w-3xl">
+                <div className="w-full max-md:w-full max-md:max-w-3xl">
                     <h1 className="text-center text-[40px] font-bold">+100</h1>
                     <p className="text-center">Recognition</p>
                 </div>

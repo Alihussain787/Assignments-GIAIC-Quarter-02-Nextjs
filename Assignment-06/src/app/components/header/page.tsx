@@ -66,7 +66,7 @@ const header = () => {
                             <button className="px-[20px] py-[8px] bg-black text-white rounded-[5px]">Sign Up</button>
                         </div>
                     </div>
-                    <div className="flex items-center hidden max-md:block">
+                    <div className="flex items-center hidden max-md:block hover:cursor-pointer">
                         <Image src={"/images/bar.svg"} 
                             alt={"icon"} 
                             width={"24"} 
