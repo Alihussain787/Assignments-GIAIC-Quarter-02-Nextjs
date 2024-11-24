@@ -4,7 +4,7 @@ import Image from "next/image";
 const header = () => {
     return(
         <div>
-            <header className="w-[1280px] flex flex-col gap-[16px] max-md:w-[768px] max-md:gap-0">
+            <header className="w-[1280px] flex flex-col gap-[16px] max-md:w-full max-md:max-w-3xl max-md:gap-0">
                 <div className="w-full bg-[#F7F7F7] flex items-center justify-center border-b border-black">
                 <div className="w-[1154px] flex justify-between py-[12px] max-md:hidden">
                     <div className="flex gap-[16px]">
@@ -44,7 +44,7 @@ const header = () => {
                 </div>
                 </div>
                 <div className="w-full bg-[#F7F7F7] flex items-center justify-center py-[12px] border-b border-black max-md:bg-white max-md:py-[24px]">
-                <nav className="w-[1154px] flex justify-between items-center max-md:w-[720px]">
+                <nav className="w-[1154px] flex justify-between items-center max-md:w-full max-md:max-w-3xl max-md:px-6">
                     <div className="flex items-center text-[25px] cursor-pointer">
                         <Image className="rounded-tl-[25%] rounded-br-[25%]"src={"/images/logo.svg"} 
                             alt={"icon"} 

@@ -4,30 +4,30 @@ import Image from "next/image";
 const footer = () => {
     return(
         <div>
-            <footer className="w-[1280px] bg-white flex items-center justify-center p-[80px] my-[80px] max-md:w-[768px]">
-                <div className="w-[1120px] flex flex-col gap-[80px] max-md:w-[720px]">
-                    <div className="flex items center justify-between max-md:w-[720px] max-md:block">
+            <footer className="w-[1280px] bg-white flex items-center justify-center p-[80px] my-[80px] max-md:w-full max-md:max-w-3xl">
+                <div className="w-[1120px] flex flex-col gap-[80px] max-md:w-full max-md:max-w-3xl ">
+                    <div className="flex items center justify-between max-md:w-full max-md:max-w-3xl max-md:block">
                         <div>
                             <h3 className="font-semibold max-md:text-center max-md:my-2">Subscribe to our newsletter</h3>
                             <p className="max-md:text-center max-md:my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div className="flex flex-col gap-[16px] max-md:my-2">
                             <div className="flex gap-[16px] max-md:flex-col">
-                                <input type="text" placeholder="Enter your email" className="w-[265px] p-[12px] border border-black outline-0 max-md:w-[720px]"/>
+                                <input type="text" placeholder="Enter your email" className="w-[265px] p-[12px] border border-black outline-0 max-md:w-full max-md:max-w-3xl"/>
                                 <button className="p-[12px] border border-black outline-0">Subscribe</button>
                             </div>
                             <p className="text-[12px] max-md:text-center">By subscribing you agree to with our <a href="#" className="underline">Privacy Policy</a></p>
                         </div>
                     </div>
                     <div className="flex gap-[40px] max-md:flex-col">
-                        <div className="w-[250px] flex text-[25px] cursor-pointer max-md:w-[720px] max-md:justify-center">
+                        <div className="w-[250px] flex text-[25px] cursor-pointer max-md:w-full max-md:max-w-3xl max-md:justify-center">
                             <Image className="h-[30px]"src={"/images/logo.svg"} 
                             alt={"icon"} 
                             width={"32"} 
                             height={"30"} />
                             <h3 className="font-bold">Ddsgnr</h3>
                         </div>
-                        <div className="w-[250px] flex flex-col gap-[16px] max-md:w-[720px]">
+                        <div className="w-[250px] flex flex-col gap-[16px] max-md:w-full max-md:max-w-3xl">
                             <h3 className="text-[16px] font-semibold max-md:text-center">Courses</h3>
                             <ul className="max-md:text-center">
                                 <li className="py-[8px]">Business</li>
@@ -37,7 +37,7 @@ const footer = () => {
                                 <li className="py-[8px]">Programming</li>
                             </ul>
                         </div>
-                        <div className="w-[250px] flex flex-col gap-[16px] max-md:w-[720px]">
+                        <div className="w-[250px] flex flex-col gap-[16px] max-md:w-full max-md:max-w-3xl">
                             <h3 className="text-[16px] font-semibold max-md:text-center">Resources</h3>
                             <ul className="max-md:text-center">
                                 <li className="py-[8px]">Career</li>
@@ -47,7 +47,7 @@ const footer = () => {
                                 <li className="py-[8px]">Jobs</li>
                             </ul>
                         </div>
-                        <div className="w-[250px] flex flex-col gap-[16px] max-md:w-[720px]">
+                        <div className="w-[250px] flex flex-col gap-[16px] max-md:w-full max-md:max-w-3xl">
                             <h3 className="text-[16px] font-semibold max-md:text-center">About Us</h3>
                             <ul className="max-md:text-center">
                                 <li className="py-[8px]">Contact</li>
