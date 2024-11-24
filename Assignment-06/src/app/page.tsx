@@ -168,7 +168,7 @@ const mainPage = () => {
                     <li className="py-[8px] px-[16px]"><a href="#">Best Price</a></li>
                 </ul>
             </div>
-            <div className="courses max-md:w-full max-md:max-w-3xl] max-md:block">
+            <div className="courses max-md:w-full max-md:max-w-3xl] max-md:block max-md:px-6">
                 <div className="w-[416px] bg-[#F7F7F7] flex flex-col gap-[24px] max-md:w-full max-md:max-w-3xl max-md:my-4">
                     <div className="max-md:w-full max-md:max-w-3xl">
                         <Image className="max-md:w-full max-md:max-w-3xl" src={"/images/c-image-1.svg"} alt={"image"} width={"416"} height={"300"}/>
