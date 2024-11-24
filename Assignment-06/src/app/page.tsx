@@ -18,7 +18,7 @@ const mainPage = () => {
                 </div>
             </div>
             <div className="max-md:h-[720px] max-md:truncate">
-                <Image src={"/images/image.svg"} alt={"image"} width={"768"} height={"900"}/>
+                <Image src={"/images/Image.svg"} alt={"image"} width={"768"} height={"900"}/>
             </div>
         </section>
         <section className="w-[1280px] bg-[#F7F7F7] flex items-center justify-between py-[64px] max-md:w-[768px] max-md:px-6 max-md:block max-md:bg-white max-md:block">
