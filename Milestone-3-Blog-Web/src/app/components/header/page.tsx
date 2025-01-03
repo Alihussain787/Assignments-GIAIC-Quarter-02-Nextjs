@@ -6,7 +6,7 @@ const Header = () => {
     return(
         <div>
         <header className="w-full flex flex-col gap-[16px] max-md:w-full max-md:max-w-3xl max-md:gap-0">
-            <div className="w-full bg-[#23A6F0] flex items-center py-[12px] px-[38px] max-md:bg-[#23A6F0] max-md:py-[24px]">
+            <div className="w-full bg-[#23A6F0] flex items-center py-[12px] px-20 max-md:bg-[#23A6F0] max-md:py-[24px]">
                 <nav className="w-full flex justify-between gap-28 max-md:w-full max-md:max-w-3xl">
                     <div className="text-[24px] cursor-pointer">
                         <Link href="/"><h3 className="text-white font-bold max-md:font-bold max-md:text-[24px]">BlogB</h3></Link>
@@ -19,7 +19,6 @@ const Header = () => {
                         <Link href="/components/posts/" className="text-white font-bold text-[14px] p-[10px] cursor-pointer hover:text-[#252B42] duration-200">Blog</Link>
                         <Link href="/components/about/" className="text-white font-bold text-[14px] p-[10px] cursor-pointer hover:text-[#252B42] duration-200">About</Link>
                         <Link href="/components/contact/" className="text-white font-bold text-[14px] p-[10px] cursor-pointer hover:text-[#252B42] duration-200">Contact</Link>
-                        <Link href="/components/pages/" className="text-white font-bold text-[14px] p-[10px] cursor-pointer hover:text-[#252B42] duration-200">Pages</Link>
                     </div>
                 </nav>
             </div>

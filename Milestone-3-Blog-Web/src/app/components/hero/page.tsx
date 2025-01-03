@@ -6,9 +6,9 @@ import Link from 'next/link'
 
 const Hero = () => {
   return (
-    <div>
-      <div className="bg-white h-[530px] flex flex-col items-center justify-center gap-4">
-        <h1 className='text-[#252B42] text-4xl font-bold max-md:text-center'>
+    <div style={{backgroundImage:"url('/bg-image.jpg')"}} className='bg-center bg-cover bg-fixed'>
+      <div className="heroBox h-[600px] flex flex-col items-center justify-center gap-4">
+        <h1 className='text-[#252B42] text-5xl font-bold max-md:text-center'>
           <Typewriter
             options={{
             strings: [
@@ -19,7 +19,7 @@ const Hero = () => {
           }}
           />
         </h1>
-        <p className='text-[#252B42]'>here is the best posts</p>
+        <p className='text-[#252B42] font-bold'>here is the best posts</p>
         <FaArrowDown className='text-2xl text-[#252B42] animate-bounce w-6 h-6 ...'/>
         <Link href={"/components/posts"} className='font-bold text-[#252B42] bg-[#23A6F0] px-10 py-4 rounded hover:bg-[#252B42] hover:text-white duration-200'>
           See All

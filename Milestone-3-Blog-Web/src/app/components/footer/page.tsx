@@ -7,7 +7,7 @@ const footer = () => {
     return(
         <div>
             <footer className="w-full bg-[#23A6F0] flex items-center justify-center max-md:w-full ">
-                <div className="w-full px-[38px] flex flex-col max-md:w-full max-md:justify-start ">
+                <div className="w-full px-20 flex flex-col max-md:w-full max-md:justify-start ">
                     <div className="w-full flex items-center justify-center py-4 max-md:w-full max-md:flex-col ">
                         <div className="w-full flex justify-between items-center max-md:flex-col">
                             <h1 className="text-[24px] text-white font-bold max-md:px-10">BlogB</h1>
